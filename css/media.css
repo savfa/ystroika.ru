@@ -1,0 +1,471 @@
+/* Media Queries */
+
+
+@media screen and (max-width: 1440px) {
+    .sale-25 {
+        background-position: right -240px top 100px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .sale-25 {
+        background-size: 500px;
+        background-position: bottom 150px right;
+    }
+    .garantee {
+        right: 0px;
+    }
+    .bonus-25__form-block {
+        margin-left: 15px;
+    }
+    .wpsisac-slick-carousal .slick-next.slick-arrow {
+        right: -25px !important;
+    }
+    .slick-next {
+        right: -30px;
+    }
+    .wpsisac-slick-carousal .slick-prev.slick-arrow {
+        left: -25px !important;
+    }
+    .slick-prev {
+        left: -30px;
+    }
+    .catalog__tab-level3 {
+        display: none;
+    }
+    .catalog__tab-min {
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+    }
+    .catalog__tab-min li {
+        width: 200px;
+    }
+    .catalog__tab-level1, .catalog__tab-level2 {
+        padding-left: 0;
+        justify-content: center;
+    }
+    .catalog__tab-level2 li:last-child {
+        margin-right: 0;
+    }
+    .catalog__tab-level2 {
+        align-items: flex-end;
+    }
+    .catalog__tab-level2 li {
+        height: auto;
+        margin: 4px 2px;
+        line-height: 1.5;
+        padding: 10px;
+    }
+    .bonus-25__form-block {
+        margin-top: 50px;
+    }
+    .gallery__catalog li {
+       flex-grow: 1;
+       width: 200px;
+    }
+    .gallery__catalog li a {
+       width: auto;
+    } 
+    .wrap1-js, .wrap2-js {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts .wpcf7-form input {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .contacts .wpcf7-form span {
+        width: 100%;
+    }
+    .contacts__title {
+        margin: 100px 0 0;
+    }
+    .shadow {
+        box-shadow: none;
+    }
+}
+@media screen and (max-width: 991px) {
+    .sale-25__text {
+        font-size: 40px;
+        width: 100%;
+    }
+    .catalog__tab-min li {
+        padding: 10px;
+    }
+    .calc__wiew-wrap {
+        width: 45%;
+    } 
+    .calc__info-wrap {
+        width: 55%;
+    }
+    .calc__info {
+        width: 370px;
+    }
+    .bonus-25__wrap {
+        flex-direction: column;
+    }
+    .bonus-25__form-block{
+        margin: 20px 0 0;
+    }
+    .bonus-25__text {
+        padding: 40px 0 10px;
+    }
+    .statistics__count {
+        font-size: 45px;
+    }
+    .statistics img {
+        width: 40px;
+        height: 40px;
+    }
+    .checklist__title-big {
+        font-size: 45px;
+    }
+    .contacts__title-right {
+        font-size: 25px;
+        margin-top: 0;
+    }
+    .contacts__text-right {
+        font-size: 15px;
+    }
+    .contacts__input {
+        margin: 10px 0;
+    }
+    .contacts__btn, .brand__info {
+        width: 100%;
+    }
+    .contacts__list-title {
+        width: 130px;
+    }
+    .sale-25 {
+        background-position: bottom 180px right;
+    }
+    .nav_list li, .phone__number-text {
+        padding-right: 15px;
+    }
+    .gallery__catalog li a {
+        font-size: 13px;
+        margin: 0 5px;
+    }
+    .photo-catalog__title {
+        font-size: 37px;
+    }
+    .footer__block a, .footer__block img {
+        width: 100%;
+    }
+    .brand__item-text, .footer__text {
+    	font-size: 14px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .header:before {
+        bottom: 53px;
+    }
+    .logo {
+        margin: 0 0 20px 0;
+    } 
+    .phone {
+        justify-content: center;
+        width: 300px;
+        margin-left: auto;
+    }
+     .phone__number {
+        margin: 0 !important;
+    }
+    .nav .nav_btn, .nav2 .nav_btn {
+        width: auto;
+    }
+    .nav .nav_btn i, .nav2 .nav_btn i{
+        padding-right: 0;
+    }
+    .link__logo {
+        text-align: center;
+    }
+    .sale-25 {
+        padding: 80px 0;
+        background-image: none; 
+    }
+    .sale-25__text {
+        font-size: 34px;
+        text-align: center;
+    }
+    .catalog__calc {
+        flex-direction: column;
+        width: 100%;
+    }
+    .calc__wiew-wrap, .calc__info-wrap, .catalog__tab-min li {
+        width: 100%;
+    }
+    .calc__info {
+        width: 470px;
+        margin: 15px auto 0;
+    }
+    .catalog__menu-main, .catalog__menu-level1, .catalog__menu-level2 {
+        display: block;
+        padding: 10px 20px;
+        background: #a7a7a7;
+        margin: 8px 0 0;
+        border-radius: 10px;
+        font-weight: 700;
+        text-align: center;
+        cursor: pointer;
+    }
+    .catalog__tab-min, .catalog__tab-level1, .catalog__tab-level2 {
+        display: none;
+    }
+    .catalog__tab-level1, .catalog__tab-level2 {
+        flex-direction: column;
+    }
+    .catalog__tab-level1, .catalog__tab-level2 {
+        background: transparent;
+    }
+    .catalog__tab-level1, .catalog__tab-level2, .catalog__tab-level1 li {
+        height: auto;
+    }
+    .catalog__tab-level1 li, .catalog__tab-level2 li {
+        width: 100%;
+        height: auto;
+        margin: 5px 0 0;
+        padding: 10px;
+    }
+    .catalog__tab-level1 li, .catalog__tab-min li {
+        background: #f9f9f9;
+    }
+    .catalog__tab-level1 li, .catalog__tab-level2 li {
+        border-radius: 10px;
+    }
+    .catalog__tab-level1 li:nth-child(2) {
+        margin: 5px 0 0;
+    }
+    .slick-prev {
+        left: 0;
+    }
+    .slick-next {
+        right: 0;
+    }
+    .header .heared_btn {
+        width: auto;
+    }
+    .header .heared_btn i {
+        padding: 0;
+        color: #b8241a;
+    }
+    .question_btn {
+        width: auto;
+        padding: 15px;
+    }
+    .statistics__btn {
+        margin: 0 0 0 50px;
+    } 
+    .statistics__wrap {
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .statistics__wrap2 {
+        justify-content: center;
+    }
+    .wpsisac-slick-carousal .slick-prev.slick-arrow, .wpsisac-slick-carousal .slick-next.slick-arrow {
+        display: none!important;
+    } 
+    .statistics__wrap2:before,
+    .statistics__wrap2:after {
+        display: none;
+    }
+    .reviews__name-block {
+    	order: 2;
+    	width: 100%;
+    	text-align: left;
+	    margin: 15px 0 0;
+    }
+    .reviews__slider-items {
+		flex-direction: column;
+    	align-items: center;
+    }
+    .reviews__slider-text {
+	    width: 100%;
+	}
+	.slick-next {
+	    right: -25px;
+	}
+	.slick-prev {
+	    left: -30px;
+	}
+    .gallery {
+        padding: 10px 0 0;
+    }
+	.gallery__catalog a {
+	    font-size: 10px !important;
+	}
+	.footer__block {
+		flex-direction: column;
+	}
+	.footer__block img {
+		max-width: 231px;
+	}
+	.footer__text {
+	    margin: 10px 0 0;
+	}
+    .nav__min-block  {
+        margin: 0 auto;
+    }
+    .nav__min-block .container, .nav .container .row, .nav .container .row .col-2,
+    .nav2 .container .row, .nav2 .container .row .col-2 {
+        position: static;
+    }
+    .nav_list {
+        position: absolute;
+        display: none;
+        background: #4e4e4e;
+        width: 100%;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        text-align: center;
+    }
+    .nav_list li {
+        margin: 10px auto;
+    }
+    .nav_list a {
+        font-size: 18px;
+    }
+    .question__warning {
+        width: 100%;
+    }
+     .catalog__tab-min li {
+        margin: 8px 0;
+    }
+	.modal span.wpcf7-not-valid-tip {
+		margin-bottom: -10px;
+	}
+
+}
+@media screen and (max-width: 575px) {
+	.calc__info {
+        width: 370px;
+        margin: 15px 0 20px;
+    }
+    .phone {
+        width: 250px;
+        margin: 0 auto 10px;
+    }
+    .bonus-25__text, .question__text, .checklist__title-big {
+        font-size: 30px;
+    }
+    .bonus-25__form {
+        flex-direction: column;
+    }
+    .tel, .statistics__questions {
+        margin: 0 0 15px;
+    }
+    .sale-25_btn, .tel, .question_btn, 
+    .checklist .wpcf7-form-control-wrap, .photo-catalog .wpcf7-form-control-wrap {
+        width: 100%;
+    }
+    .question_btn, .question__text2, .checklist__title-min, .swal-text {
+        font-size: 20px;
+    }
+    .statistic__wrap2-content {
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .statistics__wrap2 {
+        height: auto;
+    }
+    .statistics__btn {
+        margin: 0;
+    }
+    .checklist__img {
+        margin: 0 auto;
+        display: block;
+    }
+    .nav .phone__number, .nav2 .phone__number {
+        margin-right: 50px !important;
+    }
+    .contacts__title:after {
+        background-size: 150px;
+    }
+    .catalog, .bonus-25, .brand, .question, .statistics, .reviews, .checklist, .gallery,
+    .photo-catalog, .contacts {
+        padding: 40px 0;
+    }
+    .gallery__catalog {
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery__catalog li {
+        margin: 15px auto;
+    }
+    .brand__text {
+        margin: 10px 0 40px;
+    }
+    .modal {
+        width: 100%;
+    }
+    .swal-modal {
+        width: calc(100% - 70px);
+        margin-top: 20%;
+    }
+    div.wpcf7-response-output {
+        display: none !important;
+    }
+    .checklist__input, .contacts__input, .photo-catalog__input {
+        margin: 18px 0 0;
+    }
+    .checklist__btn, .contacts__btn, .photo-catalog__btn {
+       margin-top: 15px;
+    }
+    .gallery__title {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+	.header:before {
+	    bottom: 63px;
+	}
+    .calc__info {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .calc__info-prop-key {
+        margin-right: 25px;
+    }
+    .calc__info-color {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .calc__info-color a {
+        margin: 2px;
+    }
+    .bell__title {
+        font-size: 24px;
+    }
+    .nav .phone__number, .nav2 .phone__number {
+        margin-right: 10px !important;
+    }
+}
+@media screen and (max-width: 320px) {
+ /*   .container {
+        width: 300px;
+    }*/
+    ul, li {
+        font-size: 12px;
+    }
+    .sale-25 {
+        padding: 30px 0 0; 
+    }
+    .phone {
+        width: 100%;
+    }
+    .sale-25__text {
+        font-size: 25px;
+    }
+    .question_btn, .features-item__list .title {
+        font-size: 12px;
+    }
+    .calc__wiew {
+        width: 100%;
+    }
+}
+
